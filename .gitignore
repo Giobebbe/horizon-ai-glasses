@@ -1,0 +1,35 @@
+# System Files
+.DS_Store
+Thumbs.db
+
+# Environment Variables (CRITICAL)
+.env
+.env.*
+!.env.example
+
+# Dependencies
+node_modules/
+.pnp
+.pnp.js
+
+# Next.js
+.next/
+out/
+build/
+dist/
+
+# Vercel
+.vercel
+
+# Project Specific (RBI)
+.tmp/
+.agent/
+.docs/
+
+# Debug Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Large Assets (optional)
+# new_hero_animated/
