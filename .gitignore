@@ -31,5 +31,9 @@ npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
 
-# Large Assets (optional)
+# Large Assets
 # new_hero_animated/
+
+# TypeScript
+*.tsbuildinfo
+next-env.d.ts
